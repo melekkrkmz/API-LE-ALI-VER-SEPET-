@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alışveri-sepeti</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- ------------------ikon cdn------------ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- -----------google font--------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Castoro+Titling&family=Covered+By+Your+Grace&family=Libre+Baskerville&family=Lilita+One&family=Nunito&family=Quicksand:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">LOGO</div>
+        <form action="">
+            <label for="search">
+                <input type="text" placeholder="Aradığınız Ürün">
+                <i id="arama" class="fa-solid fa-magnifying-glass"></i>
+            </label>
+        </form>
+        <div class="ikon">
+           
+            <i id="sepet" onclick="openToggle()" class="fa-solid fa-cart-shopping"></i>
+            
+            <i id="bar-ikon"  class="fa-sharp fa-solid fa-bars"></i>
+        </div>
+        <div class="sepet-containar">
+            <div class="title">ürünler</div>
+            <div class="sepet-item">
+
+            </div>
+
+            <div class="end">
+                <div class="total-price">0</div>
+                <div onclick="openToggle()" class="close">close</div>
+            </div>
+           
+        </div>
+    </div>
+
+    <h1>ÜRÜNLERİMİZ</h1>
+  <div class="shopping-containar">
+
+  
+  </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

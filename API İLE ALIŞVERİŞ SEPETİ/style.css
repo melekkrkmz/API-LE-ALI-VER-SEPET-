@@ -1,0 +1,180 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+font-family: 'Aboreto', cursive;
+font-family: 'Castoro Titling', cursive;
+font-family: 'Covered By Your Grace', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lilita One', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
+/* ---------------------------------------navbar------------------------------------------------ */
+.navbar{
+    min-height: 150px;
+    background-color: #811111;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.logo{
+    font-size: 40px;
+}
+.ikon i{
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+#bar-ikon{
+    display: none;
+}
+input{
+    width: 400px;
+    height: 50px;
+    font-size: 17px;
+    border: 1px solid gray;
+    
+}
+#arama{
+    position: absolute;
+    top: -2px;
+    color: black;
+    right: 9px;
+    font-size: 25px;
+    cursor: pointer;
+}
+label{
+    position: relative;
+}
+.sepet-containar{
+    height:100%;
+    width: 25em;
+    border: 1px solid red;
+    position:fixed;
+    top: 0;
+    right: 0%;
+    color: #811111;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transform: scaleX(0);
+    transition: all 1sn;
+  
+   
+    
+}
+.sepet-containar.open{
+    transform: scaleX(1);
+ 
+}
+.spet-box{
+    border: 1px solid black;
+    width: 100%;
+    height: 30px;
+
+}
+.end{
+    display: flex;
+    border-top: 1px solid red;
+    height: 40px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.close{
+    background-color: gray;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+
+
+}
+.total-price,.close{
+   
+    width: 200px;
+    text-align: center;
+}
+/* ----------------------------SHOPPİNG CONTAİNAR--------------------------------------- */
+h1{
+    text-align: center;
+    min-height: 50px;
+    margin-top: 10px;
+}
+
+.shopping-containar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.shopping-box{
+    width:300px;
+    height:350px ;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #811111;
+}
+.imge img{
+    height: 150px;
+    width: 100%;
+    
+}
+.sepete-ekle{
+    display: block;
+    width: 200px;
+    height: 50px;
+    background-color: #811111;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+/* ---------sepet -containar------------------------ */
+.box-div{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    border: 1px solid  #811111;
+    margin: 4px;
+}
+.box-div img{
+    height: 80px;
+}
+.containar-name{
+    text-align: center;
+    width: 200px;
+
+}
+.deger{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.sepet-item{
+    overflow-y: scroll;
+    height: 47em;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
